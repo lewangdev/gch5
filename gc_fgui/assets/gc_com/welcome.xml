@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1920,1080" adaptationTest="FitSize">
+  <displayList>
+    <image id="n10_r4qx" name="n10" src="bgiq45" fileName="img/main/bj.jpg" xy="0,0"/>
+    <component id="n8_r4qx" name="btn_rule" src="bgiq4q" fileName="btn_rule.xml" xy="165,700"/>
+    <component id="n9_r4qx" name="btn_start" src="bgiq4p" fileName="btn_start.xml" xy="474,699"/>
+    <component id="n11_nje8" name="btn_intro" src="nje86u" fileName="btn_intro.xml" xy="800,700"/>
+    <component id="n12_oznp" name="btn_rank" src="oznp93" fileName="btn_rank.xml" xy="1131,700"/>
+    <component id="n13_9uxw" name="btn_close" src="9uxwaa" fileName="btn_close.xml" xy="1462,708"/>
+  </displayList>
+</component>

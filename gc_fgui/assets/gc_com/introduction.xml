@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1920,1080" bgColor="#999999">
+  <displayList>
+    <image id="n0_nje8" name="n0" src="nje86p" fileName="img/introduction/jj.jpg" xy="0,0" group="n7_9uxw"/>
+    <component id="n18_9uxw" name="btn_detail1" src="9uxwa9" fileName="intro/btn_intro2.xml" xy="1694,339" group="n7_9uxw"/>
+    <component id="n3_nje8" name="btn_return" src="r4qx59" fileName="btn_return.xml" xy="1694,707" group="n7_9uxw"/>
+    <component id="n4_nje8" name="btn_game_sound" src="nje86r" fileName="btn_game_sound.xml" xy="1800,25" group="n7_9uxw"/>
+    <component id="n13_9uxw" name="btn_detail2" src="9uxw9z" fileName="intro/btn_intro1.xml" xy="479,870" group="n7_9uxw"/>
+    <group id="n7_9uxw" name="simpleRoot" xy="0,0" size="1921,1080" advanced="true"/>
+    <graph id="n10_9uxw" name="n10" xy="0,0" size="1920,1080" group="n11_9uxw" type="rect" lineSize="0" fillColor="#ff999999"/>
+    <component id="n14_9uxw" name="btn_pre" src="9uxwa2" fileName="intro/btn_pre.xml" xy="40,410" group="n11_9uxw"/>
+    <loader id="n8_9uxw" name="loader" xy="288,0" size="1344,1080" group="n11_9uxw" fill="scaleMatchWidth"/>
+    <component id="n15_9uxw" name="btn_next" src="9uxwa1" fileName="intro/btn_next.xml" xy="1682,410" group="n11_9uxw"/>
+    <component id="n16_9uxw" name="btn_returngame" src="9uxwa0" fileName="intro/btn_return.xml" xy="1682,736" group="n11_9uxw"/>
+    <group id="n11_9uxw" name="detailRoot" xy="0,0" size="1920,1080" visible="false" advanced="true"/>
+  </displayList>
+</component>

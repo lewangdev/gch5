@@ -1,0 +1,31 @@
+{
+  "ver": "2.2.0",
+  "uuid": "5f14480a-abb4-4f50-bcf1-10147a8c71e3",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "subMetas": {
+    "shangChuanBtn": {
+      "ver": "1.0.3",
+      "uuid": "0dc3231b-9aa3-4e6c-8427-7a7b412bef66",
+      "rawTextureUuid": "5f14480a-abb4-4f50-bcf1-10147a8c71e3",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0.5,
+      "offsetY": 0,
+      "trimX": 1,
+      "trimY": 0,
+      "width": 207,
+      "height": 632,
+      "rawWidth": 208,
+      "rawHeight": 632,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

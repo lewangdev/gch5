@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1920,1080">
+  <displayList>
+    <image id="n0_mthf" name="bj" src="bgiq3u" fileName="img/explain/bj.jpg" xy="0,0"/>
+    <image id="n2_mthf" name="bg" src="mthf9e" fileName="img/3.png" xy="270,248" pivot="0.5,0" size="1420,704" group="n18_mthf"/>
+    <image id="n19_el1v" name="tip" src="mthf9a" fileName="img/排行榜.png" xy="775,98" size="402,117" group="n18_mthf" aspect="true"/>
+    <list id="n32_el1v" name="rank_list" xy="563,289" size="1044,608" group="n18_mthf" overflow="scroll" defaultItem="ui://vflbr35del1v9g" align="center">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <group id="n18_mthf" name="n18" xy="270,98" size="1420,854"/>
+    <component id="n20_el1v" name="btn_challenge" src="oznp96" fileName="btn_challenge.xml" xy="34,730" aspect="true"/>
+    <component id="n33_d7zo" name="btn_return" src="r4qx59" fileName="btn_return.xml" xy="1683,730"/>
+  </displayList>
+</component>

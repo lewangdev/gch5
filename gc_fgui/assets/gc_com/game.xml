@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1920,1080">
+  <controller name="task" pages="3,none,0,level1,1,level2,2,level3" selected="0"/>
+  <displayList>
+    <image id="n5_hd7h" name="n5" src="bgiq44" fileName="img/gameview/bj.jpg" xy="0,0"/>
+    <component id="n1_ro8k" name="btn_game_ctrl" src="ro8k5f" fileName="btn_game_controller.xml" xy="0,0"/>
+    <text id="n2_ro8k" name="timer" xy="146,46" size="122,61" fontSize="48" color="#ffffff" align="right" autoSize="none" bold="true" strokeColor="#593519" strokeSize="2" text="120S"/>
+    <text id="n4_ro8k" name="score" xy="466,49" pivot="0.5,0" size="156,57" fontSize="50" color="#ffffff" autoSize="none" bold="true" strokeColor="#593519" text="0"/>
+    <component id="n7_hd7h" name="star_progress" src="hd7h5g" fileName="star_progress.xml" xy="717,55" size="749,34">
+      <ProgressBar max="10"/>
+    </component>
+    <image id="n8_hd7h" name="n8" src="hd7h5k" fileName="img/gameview/star.png" xy="1519,31" group="n11_hd7h" alpha="0">
+      <gearLook controller="task" pages="3" values="0,0,0,1" default="1,0,0,1"/>
+    </image>
+    <image id="n9_hd7h" name="n9" src="hd7h5k" fileName="img/gameview/star.png" xy="1610,33" group="n11_hd7h" alpha="0">
+      <gearLook controller="task" pages="3,0" values="0,0,0,1|0,0,0,1" default="1,0,0,1"/>
+    </image>
+    <image id="n10_hd7h" name="n10" src="hd7h5k" fileName="img/gameview/star.png" xy="1702,32" group="n11_hd7h" alpha="0">
+      <gearLook controller="task" pages="3,0,1" values="0,0,0,1|0,0,0,1|0,0,0,1" default="1,0,0,1"/>
+    </image>
+    <group id="n11_hd7h" name="n11" xy="1519,31" size="266,81" collapsed="true"/>
+    <image id="n28_x9dm" name="n28" src="x9dm5n" fileName="img/gameview/garbage1 (1).png" xy="977,181" size="345,440"/>
+    <graph id="n32_x9dm" name="youhai" xy="977,181" size="345,440" alpha="0" type="rect"/>
+    <image id="n29_x9dm" name="n29" src="x9dm5o" fileName="img/gameview/garbage2 (1).png" xy="568,180"/>
+    <graph id="n36_k992" name="kehuishou" xy="568,180" size="345,440" alpha="0" type="rect"/>
+    <image id="n30_x9dm" name="n30" src="x9dm5p" fileName="img/gameview/garbage3 (1).png" xy="195,152" size="311,396"/>
+    <graph id="n34_x9dm" name="shilaji" xy="195,152" size="311,396" alpha="0" type="rect"/>
+    <image id="n31_x9dm" name="n31" src="x9dm5m" fileName="img/gameview/garbage4 (1).png" xy="1436,151"/>
+    <graph id="n35_x9dm" name="ganlaji" xy="1436,151" size="311,396" alpha="0" type="rect"/>
+    <component id="n55_k992" name="carousel1" src="k9925s" fileName="carousel.xml" xy="2160,667" size="1920,413"/>
+    <component id="n60_nje8" name="carousel2" src="k9925s" fileName="carousel.xml" xy="0,667" size="1920,413"/>
+    <text id="n57_k992" name="coolDownTxt" xy="600,660" size="678,283" fontSize="120" color="#ffff00" align="center" vAlign="middle" autoSize="none" bold="true" strokeColor="#333333" strokeSize="2" text="倒计时：3"/>
+    <image id="n58_nje8" name="right" src="hd7h5l" fileName="img/gameview/right.png" xy="61,31" pivot="0.5,0.5" anchor="true" visible="false"/>
+    <image id="n59_nje8" name="wrong" src="hd7h5j" fileName="img/gameview/wrong.png" xy="61,31" pivot="0.5,0.5" anchor="true" visible="false"/>
+    <component id="n61_nje8" name="btn_game_sound" src="nje86r" fileName="btn_game_sound.xml" xy="1800,25"/>
+    <image id="n62_nje8" name="shilaji_tween" src="r4qx4y" fileName="img/donghua/zongse.png" xy="195,152" size="311,396" visible="false"/>
+    <image id="n63_nje8" name="youhai_tween" src="r4qx4v" fileName="img/donghua/hongse.png" xy="977,181" size="345,440" visible="false"/>
+    <image id="n65_nje8" name="ganlaji_tween" src="r4qx4w" fileName="img/donghua/huise.png" xy="1436,151" size="311,396" visible="false"/>
+    <image id="n69_83p8" name="kehuishou_tween" src="83p86x" fileName="img/atlas/donghua2/yanJing2.png" xy="568,180"/>
+  </displayList>
+  <transition name="coolDown">
+    <item time="0" type="Text" target="n57_k992" value="倒计时：3"/>
+    <item time="0" type="Visible" target="n57_k992" value="true"/>
+    <item time="24" type="Text" target="n57_k992" value="倒计时：2"/>
+    <item time="48" type="Text" target="n57_k992" value="倒计时：1"/>
+    <item time="72" type="Text" target="n57_k992" value="游戏开始"/>
+    <item time="90" type="Visible" target="n57_k992" value="false"/>
+  </transition>
+  <transition name="right">
+    <item time="0" type="Scale" target="n58_nje8" tween="true" startValue="1,1" endValue="1.5,1.5" duration="18"/>
+    <item time="0" type="Visible" target="n58_nje8" value="true"/>
+    <item time="0" type="XY" target="n58_nje8" label="pos" value="0,0"/>
+    <item time="18" type="Scale" target="n58_nje8" tween="true" startValue="1.5,1.5"/>
+    <item time="24" type="Visible" target="n58_nje8" value="false"/>
+  </transition>
+  <transition name="wrong">
+    <item time="0" type="Scale" target="n59_nje8" tween="true" startValue="1,1" endValue="1.5,1.5" duration="18"/>
+    <item time="0" type="Visible" target="n59_nje8" value="true"/>
+    <item time="0" type="XY" target="n59_nje8" label="pos" value="0,0"/>
+    <item time="18" type="Scale" target="n59_nje8" tween="true" startValue="1.5,1.5"/>
+    <item time="24" type="Visible" target="n59_nje8" value="false"/>
+  </transition>
+  <transition name="shilaji_t" autoPlay="true" autoPlayRepeat="-1">
+    <item time="0" type="Visible" target="n62_nje8" value="false"/>
+    <item time="48" type="Visible" target="n62_nje8" value="true"/>
+    <item time="60" type="Visible" target="n62_nje8" value="false"/>
+    <item time="240" type="Visible" target="n62_nje8" value="false"/>
+  </transition>
+  <transition name="kehuishou_t" autoPlay="true" autoPlayRepeat="-1">
+    <item time="0" type="Visible" target="n69_83p8" value="false"/>
+    <item time="72" type="Visible" target="n69_83p8" value="true"/>
+    <item time="84" type="Visible" target="n69_83p8" value="false"/>
+    <item time="240" type="Visible" target="n69_83p8" value="false"/>
+  </transition>
+  <transition name="youhai_t" autoPlay="true" autoPlayRepeat="-1">
+    <item time="0" type="Visible" target="n63_nje8" value="false"/>
+    <item time="120" type="Visible" target="n63_nje8" value="true"/>
+    <item time="132" type="Visible" target="n63_nje8" value="false"/>
+    <item time="240" type="Visible" target="n63_nje8" value="false"/>
+  </transition>
+  <transition name="ganlaji_t" autoPlay="true" autoPlayRepeat="-1">
+    <item time="0" type="Visible" target="n65_nje8" value="false"/>
+    <item time="96" type="Visible" target="n65_nje8" value="true"/>
+    <item time="108" type="Visible" target="n65_nje8" value="false"/>
+    <item time="192" type="Visible" target="n65_nje8" value="false"/>
+  </transition>
+</component>

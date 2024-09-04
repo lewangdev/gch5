@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="850,115">
+  <displayList>
+    <image id="n0_el1v" name="star" src="mthf9d" fileName="img/1.png" xy="25,7" size="98,98" aspect="true" alpha="0" color="#ff8f05"/>
+    <image id="n1_el1v" name="n1" src="mthf9b" fileName="img/2.png" xy="128,65" size="462,86"/>
+    <text id="n2_el1v" name="name" xy="140,21" size="442,82" fontSize="48" color="#9b6f08" align="center" vAlign="middle" autoSize="none" bold="true" text=""/>
+    <text id="n4_el1v" name="rank" xy="16,36" size="113,55" fontSize="45" color="#9b6f08" align="center" vAlign="middle" autoSize="none" bold="true" singleLine="true" text=""/>
+    <text id="n6_el1v" name="score" xy="600,25" size="145,82" fontSize="62" color="#997111" align="center" vAlign="middle" autoSize="none" bold="true" text=""/>
+    <image id="n7_fsid" name="1" src="fsid9j" fileName="gameover/1.png" xy="42,23" size="66,79" alpha="0"/>
+    <image id="n8_fsid" name="2" src="fsid9k" fileName="gameover/2.png" xy="42,23" size="66,79" alpha="0"/>
+    <image id="n9_fsid" name="3" src="fsid9l" fileName="gameover/3.png" xy="42,23" size="66,79" alpha="0"/>
+  </displayList>
+</component>

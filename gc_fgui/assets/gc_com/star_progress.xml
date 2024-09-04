@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="744,34" extention="ProgressBar">
+  <displayList>
+    <image id="n1_hd7h" name="bar" src="bgiq43" fileName="img/gameview/bar.png" xy="0,0" size="744,34"/>
+  </displayList>
+  <ProgressBar/>
+</component>

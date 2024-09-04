@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="vflbr35d" jpegQuality="100" compressPNG="true">
+  <resources>
+    <component id="ory30" name="welcome.xml" path="/" exported="true"/>
+    <image id="bgiq2w" name="canChu.png" path="/img/atlas/"/>
+    <image id="bgiq2x" name="donghua.png" path="/img/atlas/"/>
+    <image id="bgiq2y" name="explain.png" path="/img/atlas/"/>
+    <image id="bgiq2z" name="btn_audio.png" path="/img/atlas/gameview/"/>
+    <image id="bgiq30" name="btn_mute.png" path="/img/atlas/gameview/"/>
+    <image id="bgiq31" name="btn_pause.png" path="/img/atlas/gameview/"/>
+    <image id="bgiq32" name="btn_start.png" path="/img/atlas/gameview/"/>
+    <image id="bgiq33" name="correct.png" path="/img/atlas/gameview/"/>
+    <image id="bgiq34" name="error.png" path="/img/atlas/gameview/"/>
+    <image id="bgiq35" name="heise_big.png" path="/img/atlas/gameview/"/>
+    <image id="bgiq36" name="hongse.png" path="/img/atlas/gameview/"/>
+    <image id="bgiq37" name="lanse.png" path="/img/atlas/gameview/"/>
+    <image id="bgiq38" name="line.png" path="/img/atlas/gameview/"/>
+    <image id="bgiq39" name="star.png" path="/img/atlas/gameview/"/>
+    <image id="bgiq3a" name="zongse.png" path="/img/atlas/gameview/"/>
+    <image id="bgiq3b" name="gameview.png" path="/img/atlas/"/>
+    <image id="bgiq3h" name="keHuiShou.png" path="/img/atlas/"/>
+    <image id="bgiq3n" name="qiTa.png" path="/img/atlas/"/>
+    <image id="bgiq3t" name="youHai.png" path="/img/atlas/"/>
+    <image id="bgiq3u" name="bj.jpg" path="/img/explain/"/>
+    <image id="bgiq3v" name="fanHuiBtn.png" path="/img/explain/"/>
+    <image id="bgiq3w" name="garbageInfo1.png" path="/img/explain/" exported="true"/>
+    <image id="bgiq3x" name="garbageInfo2.png" path="/img/explain/" exported="true"/>
+    <image id="bgiq3y" name="garbageInfo3.png" path="/img/explain/" exported="true"/>
+    <image id="bgiq3z" name="garbageInfo4.png" path="/img/explain/" exported="true"/>
+    <image id="bgiq40" name="bj.jpg" path="/img/gameover/"/>
+    <image id="bgiq41" name="shangChuanBtn.png" path="/img/gameover/"/>
+    <image id="bgiq42" name="startBtn.png" path="/img/gameover/"/>
+    <image id="bgiq43" name="bar.png" path="/img/gameview/"/>
+    <image id="bgiq44" name="bj.jpg" path="/img/gameview/"/>
+    <image id="bgiq45" name="bj.jpg" path="/img/main/"/>
+    <image id="bgiq46" name="ruleBtn.png" path="/img/main/"/>
+    <image id="bgiq47" name="startBtn.png" path="/img/main/"/>
+    <image id="bgiq48" name="Screen Shot 2019-07-08 at 21.21.58.png" path="/img/"/>
+    <image id="bgiq49" name="Screen Shot 2019-07-08 at 21.22.07.png" path="/img/"/>
+    <image id="bgiq4a" name="Screen Shot 2019-07-08 at 21.22.21.png" path="/img/"/>
+    <image id="bgiq4b" name="restartBtn1.png" path="/img/split/"/>
+    <image id="bgiq4c" name="restartBtn2.png" path="/img/split/"/>
+    <image id="bgiq4d" name="returnBtn1.png" path="/img/split/"/>
+    <image id="bgiq4e" name="returnBtn2.png" path="/img/split/"/>
+    <image id="bgiq4f" name="ruleBtn1.png" path="/img/split/"/>
+    <image id="bgiq4g" name="ruleBtn2.png" path="/img/split/"/>
+    <image id="bgiq4h" name="startBtn1.png" path="/img/split/"/>
+    <image id="bgiq4i" name="startBtn2.png" path="/img/split/"/>
+    <image id="bgiq4j" name="uploadBtn1.png" path="/img/split/"/>
+    <image id="bgiq4k" name="uploadBtn2.png" path="/img/split/"/>
+    <component id="bgiq4p" name="btn_start.xml" path="/"/>
+    <component id="bgiq4q" name="btn_rule.xml" path="/"/>
+    <component id="r4qx4r" name="game.xml" path="/" exported="true"/>
+    <component id="r4qx4s" name="rule.xml" path="/" exported="true"/>
+    <component id="r4qx4t" name="gameoverold.xml" path="/"/>
+    <image id="r4qx4u" name="girleye.png" path="/img/donghua/"/>
+    <image id="r4qx4v" name="hongse.png" path="/img/donghua/" duplicatePadding="true"/>
+    <image id="r4qx4w" name="huise.png" path="/img/donghua/" duplicatePadding="true"/>
+    <image id="r4qx4x" name="lanse.png" path="/img/donghua/" smoothing="false"/>
+    <image id="r4qx4y" name="zongse.png" path="/img/donghua/" duplicatePadding="true"/>
+    <image id="r4qx52" name="garbage4.png" path="/img/explain/" exported="true"/>
+    <image id="r4qx53" name="garbage3.png" path="/img/explain/" exported="true"/>
+    <image id="r4qx54" name="garbage2.png" path="/img/explain/" exported="true"/>
+    <image id="r4qx55" name="garbage1.png" path="/img/explain/" exported="true"/>
+    <image id="r4qx56" name="garbageSel.png" path="/img/explain/"/>
+    <component id="r4qx58" name="tracshitem.xml" path="/"/>
+    <component id="r4qx59" name="btn_return.xml" path="/"/>
+    <component id="r4qx5a" name="top_menu.xml" path="/"/>
+    <image id="ro8k5d" name="zanTing.png" path="/img/gameview/"/>
+    <image id="ro8k5e" name="jiXu.png" path="/img/gameview/"/>
+    <component id="ro8k5f" name="btn_game_controller.xml" path="/"/>
+    <component id="hd7h5g" name="star_progress.xml" path="/"/>
+    <image id="hd7h5h" name="voiceClose.png" path="/img/gameview/"/>
+    <image id="hd7h5i" name="voiceOpen.png" path="/img/gameview/"/>
+    <image id="hd7h5j" name="wrong.png" path="/img/gameview/"/>
+    <image id="hd7h5k" name="star.png" path="/img/gameview/"/>
+    <image id="hd7h5l" name="right.png" path="/img/gameview/"/>
+    <image id="x9dm5m" name="garbage4 (1).png" path="/img/gameview/"/>
+    <image id="x9dm5n" name="garbage1 (1).png" path="/img/gameview/"/>
+    <image id="x9dm5o" name="garbage2 (1).png" path="/img/gameview/"/>
+    <image id="x9dm5p" name="garbage3 (1).png" path="/img/gameview/"/>
+    <image id="x9dm5q" name="line.png" path="/img/gameview/"/>
+    <component id="x9dm5r" name="item.xml" path="/"/>
+    <component id="k9925s" name="carousel.xml" path="/"/>
+    <image id="rcnv63" name="ganlaji_1.png" path="/ganlaji/" exported="true"/>
+    <image id="rcnv64" name="ganlaji_2.png" path="/ganlaji/" exported="true"/>
+    <image id="rcnv65" name="ganlaji_3.png" path="/ganlaji/" exported="true"/>
+    <image id="rcnv66" name="ganlaji_4.png" path="/ganlaji/" exported="true"/>
+    <image id="rcnv67" name="ganlaji_5.png" path="/ganlaji/" exported="true"/>
+    <image id="rcnv68" name="kehuishou_1.png" path="/kehuishou/" exported="true"/>
+    <image id="rcnv69" name="kehuishou_2.png" path="/kehuishou/" exported="true"/>
+    <image id="rcnv6a" name="kehuishou_3.png" path="/kehuishou/" exported="true"/>
+    <image id="rcnv6b" name="kehuishou_4.png" path="/kehuishou/" exported="true"/>
+    <image id="rcnv6c" name="kehuishou_5.png" path="/kehuishou/" exported="true"/>
+    <image id="rcnv6d" name="shilaji_1.png" path="/shilaji/" exported="true"/>
+    <image id="rcnv6e" name="shilaji_2.png" path="/shilaji/" exported="true"/>
+    <image id="rcnv6f" name="shilaji_3.png" path="/shilaji/" exported="true"/>
+    <image id="rcnv6g" name="shilaji_4.png" path="/shilaji/" exported="true"/>
+    <image id="rcnv6h" name="shilaji_5.png" path="/shilaji/" exported="true"/>
+    <image id="rcnv6i" name="youhai_1.png" path="/youhai/" exported="true"/>
+    <image id="rcnv6j" name="youhai_2.png" path="/youhai/" exported="true"/>
+    <image id="rcnv6k" name="youhai_3.png" path="/youhai/" exported="true"/>
+    <image id="rcnv6l" name="youhai_4.png" path="/youhai/" exported="true"/>
+    <image id="rcnv6m" name="youhai_5.png" path="/youhai/" exported="true"/>
+    <component id="nje86n" name="btn_restart.xml" path="/"/>
+    <component id="nje86o" name="introduction.xml" path="/" exported="true"/>
+    <image id="nje86p" name="jj.jpg" path="/img/introduction/"/>
+    <sound id="nje86q" name="btn.mp3" path="/"/>
+    <component id="nje86r" name="btn_game_sound.xml" path="/"/>
+    <image id="nje86s" name="introductionBtn_1.png" path="/img/split/"/>
+    <image id="nje86t" name="introductionBtn_2.png" path="/img/split/"/>
+    <component id="nje86u" name="btn_intro.xml" path="/"/>
+    <image id="83p86w" name="yanJing1.png" path="/img/atlas/donghua2/"/>
+    <image id="83p86x" name="yanJing2.png" path="/img/atlas/donghua2/" duplicatePadding="true"/>
+    <image id="83p86y" name="yanJing3.png" path="/img/atlas/donghua2/"/>
+    <image id="83p86z" name="yanJing4.png" path="/img/atlas/donghua2/"/>
+    <image id="k1sq70" name="__ganlaji_1.png" path="/ganlaji/"/>
+    <image id="k1sq71" name="__ganlaji_2.png" path="/ganlaji/"/>
+    <image id="k1sq72" name="__ganlaji_3.png" path="/ganlaji/"/>
+    <image id="k1sq73" name="__kehuishou_1.png" path="/kehuishou/"/>
+    <image id="k1sq74" name="__kehuishou_2.png" path="/kehuishou/"/>
+    <image id="k1sq75" name="__kehuishou_3.png" path="/kehuishou/"/>
+    <image id="k1sq76" name="__kehuishou_4.png" path="/kehuishou/"/>
+    <image id="k1sq77" name="__kehuishou_5.png" path="/kehuishou/"/>
+    <image id="k1sq78" name="__kehuishou_6.png" path="/kehuishou/"/>
+    <image id="k1sq79" name="__kehuishou_7.png" path="/kehuishou/"/>
+    <image id="k1sq7a" name="__kehuishou_8.png" path="/kehuishou/"/>
+    <image id="k1sq7b" name="__kehuishou_9.png" path="/kehuishou/"/>
+    <image id="k1sq7c" name="__kehuishou_10.png" path="/kehuishou/"/>
+    <image id="k1sq7d" name="__shilaji_1.png" path="/shilaji/"/>
+    <image id="k1sq7e" name="__shilaji_2.png" path="/shilaji/"/>
+    <image id="k1sq7f" name="__shilaji_3.png" path="/shilaji/"/>
+    <image id="k1sq7g" name="__shilaji_4.png" path="/shilaji/"/>
+    <image id="k1sq7h" name="__shilaji_5.png" path="/shilaji/"/>
+    <image id="k1sq7i" name="__shilaji_6.png" path="/shilaji/"/>
+    <image id="k1sq7j" name="__shilaji_7.png" path="/shilaji/"/>
+    <image id="k1sq7k" name="__shilaji_8.png" path="/shilaji/"/>
+    <image id="k1sq7l" name="__shilaji_9.png" path="/shilaji/"/>
+    <image id="k1sq7m" name="__shilaji_10.png" path="/shilaji/"/>
+    <image id="k1sq7n" name="__youhai_1.png" path="/youhai/"/>
+    <image id="a8367o" name="ganlaji_6.png" path="/ganlaji/" exported="true"/>
+    <image id="a8367p" name="ganlaji_7.png" path="/ganlaji/" exported="true"/>
+    <image id="a8367q" name="kehuishou_31.png" path="/kehuishou/" exported="true"/>
+    <image id="a8367r" name="ganlaji_8.png" path="/ganlaji/" exported="true"/>
+    <image id="a8367s" name="kehuishou_32.png" path="/kehuishou/" exported="true"/>
+    <image id="a8367t" name="kehuishou_6.png" path="/kehuishou/" exported="true"/>
+    <image id="a8367u" name="kehuishou_7.png" path="/kehuishou/" exported="true"/>
+    <image id="a8367v" name="kehuishou_8.png" path="/kehuishou/" exported="true"/>
+    <image id="a8367w" name="kehuishou_9.png" path="/kehuishou/" exported="true"/>
+    <image id="a8367x" name="kehuishou_10.png" path="/kehuishou/" exported="true"/>
+    <image id="a8367y" name="kehuishou_11.png" path="/kehuishou/" exported="true"/>
+    <image id="a8367z" name="kehuishou_12.png" path="/kehuishou/" exported="true"/>
+    <image id="a83680" name="kehuishou_13.png" path="/kehuishou/" exported="true"/>
+    <image id="a83681" name="kehuishou_14.png" path="/kehuishou/" exported="true"/>
+    <image id="a83682" name="kehuishou_15.png" path="/kehuishou/" exported="true"/>
+    <image id="a83683" name="kehuishou_16.png" path="/kehuishou/" exported="true"/>
+    <image id="a83684" name="kehuishou_17.png" path="/kehuishou/" exported="true"/>
+    <image id="a83685" name="kehuishou_18.png" path="/kehuishou/" exported="true"/>
+    <image id="a83686" name="kehuishou_19.png" path="/kehuishou/" exported="true"/>
+    <image id="a83687" name="kehuishou_20.png" path="/kehuishou/" exported="true"/>
+    <image id="a83688" name="kehuishou_21.png" path="/kehuishou/" exported="true"/>
+    <image id="a83689" name="kehuishou_22.png" path="/kehuishou/" exported="true"/>
+    <image id="a8368a" name="kehuishou_23.png" path="/kehuishou/" exported="true"/>
+    <image id="a8368b" name="kehuishou_24.png" path="/kehuishou/" exported="true"/>
+    <image id="a8368c" name="kehuishou_25.png" path="/kehuishou/" exported="true"/>
+    <image id="a8368d" name="kehuishou_26.png" path="/kehuishou/" exported="true"/>
+    <image id="a8368e" name="kehuishou_27.png" path="/kehuishou/" exported="true"/>
+    <image id="a8368f" name="kehuishou_28.png" path="/kehuishou/" exported="true"/>
+    <image id="a8368g" name="kehuishou_29.png" path="/kehuishou/" exported="true"/>
+    <image id="a8368h" name="kehuishou_30.png" path="/kehuishou/" exported="true"/>
+    <image id="a8368i" name="shilaji_6.png" path="/shilaji/" exported="true"/>
+    <image id="a8368j" name="shilaji_7.png" path="/shilaji/" exported="true"/>
+    <image id="a8368k" name="shilaji_8.png" path="/shilaji/" exported="true"/>
+    <image id="a8368l" name="shilaji_9.png" path="/shilaji/" exported="true"/>
+    <image id="a8368m" name="shilaji_10.png" path="/shilaji/" exported="true"/>
+    <image id="a8368n" name="shilaji_11.png" path="/shilaji/" exported="true"/>
+    <image id="a8368o" name="shilaji_12.png" path="/shilaji/" exported="true"/>
+    <image id="a8368q" name="youhai_6.png" path="/youhai/" exported="true"/>
+    <image id="a8368r" name="youhai_7.png" path="/youhai/" exported="true"/>
+    <image id="a8368s" name="youhai_8.png" path="/youhai/" exported="true"/>
+    <image id="a8368t" name="kehuishou_35.png" path="/kehuishou/" exported="true"/>
+    <image id="a8368u" name="youhai_9.png" path="/youhai/" exported="true"/>
+    <image id="a8368v" name="kehuishou_33.png" path="/kehuishou/" exported="true"/>
+    <image id="a8368w" name="kehuishou_34.png" path="/kehuishou/" exported="true"/>
+    <image id="oznp8y" name="大哭.png" path="/img/"/>
+    <image id="oznp8z" name="开心.png" path="/img/"/>
+    <image id="oznp90" name="微笑.png" path="/img/"/>
+    <image id="oznp91" name="排行榜1.png" path="/img/"/>
+    <image id="oznp92" name="排行榜2.png" path="/img/"/>
+    <component id="oznp93" name="btn_rank.xml" path="/"/>
+    <image id="oznp94" name="挑战1.png" path="/img/"/>
+    <image id="oznp95" name="挑战2.png" path="/img/"/>
+    <component id="oznp96" name="btn_challenge.xml" path="/"/>
+    <component id="oznp97" name="btn_confirm.xml" path="/"/>
+    <component id="mthf98" name="rank.xml" path="/" exported="true"/>
+    <image id="mthf9a" name="排行榜.png" path="/img/" gridTile="16"/>
+    <image id="mthf9b" name="2.png" path="/img/"/>
+    <image id="mthf9c" name="2(1).png" path="/img/"/>
+    <image id="mthf9d" name="1.png" path="/img/"/>
+    <image id="mthf9e" name="3.png" path="/img/" scale="9grid" scale9grid="98,107,305,280" gridTile="16"/>
+    <component id="el1v9g" name="rank_item.xml" path="/" exported="true"/>
+    <component id="d7zo9i" name="btn_cancel.xml" path="/"/>
+    <image id="fsid9j" name="1.png" path="/gameover/"/>
+    <image id="fsid9k" name="2.png" path="/gameover/"/>
+    <image id="fsid9l" name="3.png" path="/gameover/"/>
+    <image id="fsid9m" name="zan.png" path="/gameover/"/>
+    <image id="fsid9n" name="再玩一次.png" path="/gameover/"/>
+    <image id="fsid9o" name="哭脸.png" path="/gameover/"/>
+    <image id="fsid9p" name="排行榜.png" path="/gameover/"/>
+    <image id="fsid9q" name="游戏结束.png" path="/gameover/"/>
+    <image id="fsid9r" name="返回首页.png" path="/gameover/"/>
+    <component id="fsid9s" name="gameover.xml" path="/" exported="true"/>
+    <component id="fsid9t" name="btn_rank_v.xml" path="/gameover/"/>
+    <component id="fsid9u" name="btn_return_v.xml" path="/gameover/"/>
+    <component id="fsid9v" name="btn_replay.xml" path="/gameover/"/>
+    <image id="9uxw9w" name="1.jpg" path="/intro/"/>
+    <image id="9uxw9x" name="intro.jpg" path="/intro/"/>
+    <component id="9uxw9z" name="btn_intro1.xml" path="/intro/"/>
+    <component id="9uxwa0" name="btn_return.xml" path="/intro/"/>
+    <component id="9uxwa1" name="btn_next.xml" path="/intro/"/>
+    <component id="9uxwa2" name="btn_pre.xml" path="/intro/"/>
+    <image id="9uxwa3" name="detailBtn1.png" path="/intro/"/>
+    <image id="9uxwa4" name="detailBtn2.png" path="/intro/"/>
+    <image id="9uxwa5" name="上一页.png" path="/intro/"/>
+    <image id="9uxwa6" name="下一页.png" path="/intro/"/>
+    <image id="9uxwa7" name="欣赏.png" path="/intro/"/>
+    <image id="9uxwa8" name="返回游戏.png" path="/intro/"/>
+    <component id="9uxwa9" name="btn_intro2.xml" path="/intro/"/>
+    <component id="9uxwaa" name="btn_close.xml" path="/"/>
+    <image id="9uxwab" name="返回1.png" path="/img/"/>
+    <image id="9uxwac" name="返回2.png" path="/img/"/>
+  </resources>
+  <publish name="gc_com" path="/Users/xxj/Project/gch5/assets/resources/UI"/>
+</packageDescription>

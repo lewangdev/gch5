@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1920,1080">
+  <displayList>
+    <image id="n1_r4qx" name="bj" src="bgiq3u" fileName="img/explain/bj.jpg" xy="0,0"/>
+    <list id="n2_r4qx" name="trash_list" xy="41,41" size="212,1015" overflow="hidden" lineGap="-12" defaultItem="ui://vflbr35dr4qx58" align="center">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <loader id="n6_r4qx" name="rule_content" xy="252,132" size="1426,917" url="ui://vflbr35dbgiq3w"/>
+    <component id="n7_r4qx" name="btn_return" src="r4qx59" fileName="btn_return.xml" xy="1694,708"/>
+    <component id="n9_nje8" name="btn_game_sound" src="nje86r" fileName="btn_game_sound.xml" xy="1800,25"/>
+  </displayList>
+</component>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1920,1080">
+  <controller name="task" pages="0,none,1,level1,2,level2,3,level3" selected="0"/>
+  <controller name="input" pages="1,show,0,hide" selected="0"/>
+  <displayList>
+    <image id="n0_nje8" name="n0" src="bgiq45" fileName="img/main/bj.jpg" xy="0,0"/>
+    <component id="n2_nje8" name="btn_rule" src="bgiq4q" fileName="btn_rule.xml" xy="397,696" size="190,265"/>
+    <component id="n3_nje8" name="btn_restart" src="nje86n" fileName="btn_restart.xml" xy="689,696" size="190,265"/>
+    <component id="n27_rpbo" name="btn_rank" src="oznp93" fileName="btn_rank.xml" xy="981,701" scale="0.82,0.82"/>
+    <image id="n4_nje8" name="n4" src="r4qx55" fileName="img/explain/garbage1.png" xy="1434,769" size="164,211"/>
+    <image id="n5_nje8" name="n5" src="r4qx54" fileName="img/explain/garbage2.png" xy="1627,512" size="164,211"/>
+    <image id="n6_nje8" name="n6" src="r4qx53" fileName="img/explain/garbage3.png" xy="1427,514" size="164,211"/>
+    <image id="n7_nje8" name="n7" src="r4qx52" fileName="img/explain/garbage4.png" xy="1634,765" size="164,211"/>
+    <text id="n8_oauf" name="n8" xy="1102,129" size="148,78" fontSize="55" color="#f9df1e" autoSize="none" bold="true" strokeColor="#593519" strokeSize="2" text="得分:"/>
+    <text id="n9_oauf" name="score" xy="1253,127" size="213,78" fontSize="65" color="#ffffff" autoSize="none" strokeColor="#593519" text="100"/>
+    <image id="n10_oauf" name="n10" src="hd7h5k" fileName="img/gameview/star.png" xy="1532,127" size="70,66" visible="false" alpha="0">
+      <gearDisplay controller="task" pages="1,2,3"/>
+    </image>
+    <image id="n11_oauf" name="n11" src="hd7h5k" fileName="img/gameview/star.png" xy="1612,127" size="70,66" visible="false" alpha="0">
+      <gearDisplay controller="task" pages="2,3"/>
+    </image>
+    <image id="n12_oauf" name="n12" src="hd7h5k" fileName="img/gameview/star.png" xy="1692,127" size="70,66" visible="false" alpha="0">
+      <gearDisplay controller="task" pages="3"/>
+    </image>
+    <text id="n14_oznp" name="n14" xy="1554,129" size="357,78" fontSize="55" color="#f9df1e" autoSize="none" strokeColor="#593519" strokeSize="2" text="要加油了">
+      <gearText controller="task" pages="0,1,2" values="要加油了|要加油了|再接再励" default="你太棒了"/>
+    </text>
+    <image id="n16_oznp" name="n16" src="oznp8y" fileName="img/大哭.png" xy="1470,117" size="80,80">
+      <gearDisplay controller="task" pages="0,1"/>
+    </image>
+    <image id="n18_oznp" name="n18" src="oznp90" fileName="img/微笑.png" xy="1470,117" size="80,80">
+      <gearDisplay controller="task" pages="2"/>
+    </image>
+    <image id="n17_oznp" name="n17" src="oznp8z" fileName="img/开心.png" xy="1470,117" size="80,80">
+      <gearDisplay controller="task" pages="3"/>
+    </image>
+    <graph id="n23_oznp" name="n23" xy="0,0" size="1920,1080" group="n22_oznp" type="rect" lineSize="0" fillColor="#80000000"/>
+    <graph id="n19_oznp" name="n19" xy="576,397" size="748,299" group="n22_oznp" alpha="0.3" type="rect"/>
+    <text id="n20_oznp" name="input" xy="648,464" size="596,92" group="n22_oznp" input="true" prompt="请输入您的姓名..." fontSize="55" color="#f9f15b" align="center" vAlign="middle" autoSize="none" singleLine="true" text=""/>
+    <component id="n24_oznp" name="btn_confirm" src="oznp97" fileName="btn_confirm.xml" xy="650,585" size="280,60" group="n22_oznp">
+      <Button title="确认"/>
+    </component>
+    <component id="n26_d7zo" name="btn_cancel" src="d7zo9i" fileName="btn_cancel.xml" xy="968,585" group="n22_oznp"/>
+    <group id="n22_oznp" name="n22" xy="0,0" size="1920,1080" advanced="true" collapsed="true">
+      <gearDisplay controller="input" pages="1"/>
+    </group>
+  </displayList>
+</component>

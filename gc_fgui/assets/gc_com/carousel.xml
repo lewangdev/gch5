@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1920,413" opaque="false">
+  <displayList>
+    <image id="n2_k992" name="n2" src="x9dm5q" fileName="img/gameview/line.png" xy="-120,0" group="n20_k992"/>
+    <image id="n3_k992" name="n3" src="x9dm5q" fileName="img/gameview/line.png" xy="0,0" group="n20_k992"/>
+    <image id="n4_k992" name="n4" src="x9dm5q" fileName="img/gameview/line.png" xy="120,0" group="n20_k992"/>
+    <image id="n5_k992" name="n5" src="x9dm5q" fileName="img/gameview/line.png" xy="240,0" group="n20_k992"/>
+    <image id="n6_k992" name="n6" src="x9dm5q" fileName="img/gameview/line.png" xy="360,0" group="n20_k992"/>
+    <image id="n7_k992" name="n7" src="x9dm5q" fileName="img/gameview/line.png" xy="480,0" group="n20_k992"/>
+    <image id="n8_k992" name="n8" src="x9dm5q" fileName="img/gameview/line.png" xy="600,0" group="n20_k992"/>
+    <image id="n9_k992" name="n9" src="x9dm5q" fileName="img/gameview/line.png" xy="720,0" group="n20_k992"/>
+    <image id="n10_k992" name="n10" src="x9dm5q" fileName="img/gameview/line.png" xy="840,0" group="n20_k992"/>
+    <image id="n11_k992" name="n11" src="x9dm5q" fileName="img/gameview/line.png" xy="960,0" group="n20_k992"/>
+    <image id="n12_k992" name="n12" src="x9dm5q" fileName="img/gameview/line.png" xy="1080,0" group="n20_k992"/>
+    <image id="n13_k992" name="n13" src="x9dm5q" fileName="img/gameview/line.png" xy="1200,0" group="n20_k992"/>
+    <image id="n14_k992" name="n14" src="x9dm5q" fileName="img/gameview/line.png" xy="1320,0" group="n20_k992"/>
+    <image id="n15_k992" name="n15" src="x9dm5q" fileName="img/gameview/line.png" xy="1440,0" group="n20_k992"/>
+    <image id="n16_k992" name="n16" src="x9dm5q" fileName="img/gameview/line.png" xy="1560,0" group="n20_k992"/>
+    <image id="n17_k992" name="n17" src="x9dm5q" fileName="img/gameview/line.png" xy="1680,0" group="n20_k992"/>
+    <image id="n18_k992" name="n18" src="x9dm5q" fileName="img/gameview/line.png" xy="1800,0" group="n20_k992"/>
+    <image id="n19_k992" name="n19" src="x9dm5q" fileName="img/gameview/line.png" xy="1920,0" group="n20_k992"/>
+    <group id="n20_k992" name="carouselBottom" xy="-120,0" size="2279,413" advanced="true" collapsed="true"/>
+  </displayList>
+</component>
